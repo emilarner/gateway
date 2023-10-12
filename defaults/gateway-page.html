@@ -1,0 +1,36 @@
+<html>
+    <style>
+        body
+        {
+            background-color: #FAF9F6;
+            font-family: sans-serif;
+            text-align: center;
+        }
+
+        .input
+        {
+            padding: 8px;
+        }
+
+        .submit
+        {
+            padding: 8px;
+        }
+
+    </style>
+
+    <body>
+        <h1>Login for <i>Gateway</i></h1>
+        <form action="/authenticate/" method="POST">
+            <p>Password</p>
+            <input type="password" name="password" class="input">
+            <br>
+            <br>
+            <p>Expiration (seconds)</p>
+            <input type="text" name="expiration" class="input" value="0">
+            <br>
+            <br>
+            <input type="submit" value="Login" class="submit">
+        </form>
+    </body>
+</html>

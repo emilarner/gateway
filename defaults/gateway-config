@@ -1,0 +1,8 @@
+# comments denoted with hashtag are ignored
+# a mapping between outbound to inbound
+65500 192.168.1.130:8080
+# a hardcoded, no exceptions IP whitelist
+192.168.1.130
+127.0.0.1
+# a hardcoded, superceding expiration for dynamically authenticated IPs
+expiration 60

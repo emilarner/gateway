@@ -1,0 +1,7 @@
+{
+    "port": 8081,
+    "password": "this is a password",
+    "attempts": 4,
+    "timeout": 3600,
+    "multiplier": 1.75
+}
